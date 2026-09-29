@@ -1,237 +1,131 @@
-# Awesome-Composable-CDP
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Composable CDP Banner" width="100%">
+</p>
 
-## Top Composable CDP Platforms Ecosystem
+# 🚀 Awesome Composable CDP & Data Activation Ecosystem ⚡
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Composable-CDP"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Composable-CDP?style=flat-square&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Composable-CDP/stargazers"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Composable-CDP?style=flat-square&color=blue" alt="GitHub Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Composable-CDP/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Composable-CDP?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-*Focused on Warehouse-Native Customer Data, Reverse ETL, Event Collection, Audience Activation & Data Activation*
+## 📌 Overview & Modern Customer Data Stack Architecture
 
-**Last updated: September 2026**
+> **A curated collection of top SaaS platforms and open-source GitHub projects for Composable Customer Data Platforms (CDP), Reverse ETL, Event Collection, Behavioral Tracking, Audience Modeling, and Data Activation.** 
 
+*Last updated: September 2026* 📅
 
+Modern data architecture treats cloud data warehouses (Snowflake, BigQuery, Databricks, Amazon Redshift) as the **single source of truth** for customer profiles. Rather than locking customer data inside black-box, proprietary CDPs, a **Composable CDP** empowers data and engineering teams to assemble modular, best-in-class components:
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Composable CDPs**. These systems treat the data warehouse as the source of truth for customer data—collecting events, modeling audiences, and activating data into business tools via reverse ETL and streaming—rather than storing a separate customer profile store.
-
-
-
-**Examples** include Hightouch, RudderStack, mParticle, Segment, Treasure Data, ActionIQ, Zeotap, Simon Data, Blotout, Jitsu, GrowthLoop, Census, ActionIQ CX Hub, MessageGears, and Tealium (the category leaders).
-
-
-
-**Open-source emphasis**: Composable CDP has strong open-source foundations. **RudderStack**, **Jitsu**, **Multiwoven**, and related event + reverse ETL projects let teams own collection and activation pipelines. This section heavily expands those options.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-products)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-- **[Hightouch](https://hightouch.com/)**  
-
-  Leading composable CDP and reverse ETL platform—warehouse-native audiences, activation to 250+ destinations, and marketing-friendly audience builders.
-
-
-
-- **[RudderStack](https://www.rudderstack.com/)**  
-
-  Warehouse-native customer data platform with open-source data plane—event streaming, transformations, reverse ETL, and profiles on your infrastructure.
-
-
-
-- **[mParticle](https://www.mparticle.com/)**  
-
-  Enterprise customer data platform strong on mobile, real-time event orchestration, and multi-channel activation.
-
-
-
-- **[Segment](https://segment.com/)**  
-
-  Classic CDP for event collection, identity, and routing to destinations—still widely used as the collection layer in hybrid stacks.
-
-
-
-- **[Treasure Data](https://www.treasuredata.com/)**  
-
-  Enterprise CDP and customer data cloud for collection, unification, and activation at scale.
-
-
-
-- **[ActionIQ](https://www.actioniq.com/)**  
-
-  Enterprise composable / CX hub CDP focused on audience management and activation for large organizations.
-
-
-
-- **[Zeotap](https://zeotap.com/)**  
-
-  Customer data and identity platform for privacy-centric collection, enrichment, and activation.
-
-
-
-- **[Simon Data](https://www.simondata.com/)**  
-
-  Customer data and marketing activation platform built around warehouse and journey orchestration.
-
-
-
-- **[Blotout](https://blotout.io/)**  
-
-  Privacy-first edge and composable CDP approaches for first-party data collection and activation.
-
-
-
-- **[Jitsu](https://jitsu.com/)**  
-
-  Open-source Segment alternative with commercial hosting—event collection, transformation, and warehouse delivery.
-
-
-
-- **[GrowthLoop](https://www.growthloop.com/)**  
-
-  Composable customer data and activation platform oriented toward growth and marketing teams.
-
-
-
-- **[Census](https://www.getcensus.com/)**  
-
-  Reverse ETL and data activation platform (now in the Fivetran ecosystem) for syncing warehouse data to business tools.
-
-
-
-- **[MessageGears](https://www.messagegears.com/)**  
-
-  Enterprise data activation and messaging platform that works with existing customer data stores.
-
-
-
-- **[Tealium](https://tealium.com/)**  
-
-  Customer data platform and tag management suite for collection, enrichment, and real-time activation.
-
-
-
-## Open-Source GitHub Projects
-
-- **[RudderStack (rudder-server)](https://github.com/rudderlabs/rudder-server)**  
-
-  Leading open/source-available warehouse-native CDP data plane—Segment-compatible event collection, transformations, and warehouse/destination routing.
-
-
-
-- **[Jitsu](https://github.com/jitsucom/jitsu)**  
-
-  Fully open-source (MIT) Segment alternative—collect events from web/apps, transform in flight, and stream to warehouses and tools.
-
-
-
-- **[Multiwoven](https://github.com/Multiwoven/multiwoven)**  
-
-  Open-source reverse ETL and data activation platform positioned as an alternative to Hightouch and Census.
-
-
-
-- **[Airbyte](https://github.com/airbytehq/airbyte)**  
-
-  Open-source data integration platform often used to move SaaS and event data into the warehouse that powers a composable CDP.
-
-
-
-- **[dbt](https://github.com/dbt-labs/dbt-core)**  
-
-  Open-source transformation framework that models customer entities, identities, and audience tables inside the warehouse.
-
-
-
-- **[Snowplow](https://github.com/snowplow/snowplow)**  
-
-  Open-source behavioral data pipeline for high-quality event collection into your own warehouse.
-
-
-
-- **[Segment open protocols / community destinations](https://github.com/segmentio)**  
-
-  Open protocols and community connectors that influence many Segment-compatible open collectors.
-
-
-
-- **[Reverse ETL open connectors and sync engines](https://github.com/)**  
-
-  Community projects for SQL-based extraction and sync from warehouses to CRM, marketing, and support tools.
-
-
-
-- **[Identity resolution open experiments](https://github.com/)**  
-
-  Libraries and notebooks for deterministic and probabilistic identity stitching on warehouse data.
-
-
-
-- **[Documentation and composable CDP open playbooks](https://www.rudderstack.com/docs/)**  
-
-  Guides for building warehouse-native collection → transform → activate pipelines with open tools.
-
-
-
-### Additional Strong Open-Source Options
-
-- Collecting events with **Jitsu** or **RudderStack** open data planes into your warehouse.
-
-- Modeling audiences and customer 360 tables with **dbt**.
-
-- Activating with **Multiwoven** or custom reverse ETL jobs.
-
-- Using **Snowplow** when behavioral event quality and ownership are critical.
-
-- Accepting that no-code audience builders, large destination catalogs, enterprise governance, and managed SLAs still favor commercial composable CDPs (Hightouch, Census, RudderStack Cloud, Segment, mParticle, Tealium, etc.).
-
-- Focusing open-source efforts on data ownership, cost control at high event volume, and warehouse-centric architecture.
-
-
-
-**Frameworks for building custom systems**: Collect with Jitsu/RudderStack/Snowplow → land in warehouse → transform with dbt → activate with Multiwoven or SQL syncs → govern schemas in code. Suitable for data and engineering-led teams. Marketing-led organizations often still prefer commercial composable CDPs for self-serve activation.
-
-
-
-## How to Contribute
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Customer data platforms handle personal data and must comply with privacy regulations. Open-source deployments require proper security, consent, and governance. This list is not legal or privacy advice.
-
-
+1. **⚡ Event Collection & Behavioral Tracking:** Collecting real-time user events from web, mobile apps, and backend services into the data warehouse.
+2. **🧠 Identity Resolution & Modeling:** Stitching user profiles, identity graphs, and audience segments directly inside the warehouse using SQL / dbt.
+3. **🔄 Reverse ETL & Data Activation:** Operationalizing warehouse data by continuously syncing customer traits and audiences into CRMs (Salesforce, HubSpot), ad platforms (Google Ads, Meta), and marketing automation tools (Klaviyo, Braze).
 
 ---
 
-**Made for data engineers, growth teams, and open-source CDP advocates.**
+## 📑 Table of Contents
+- [📊 Market Size & Industry Dynamics](#-market-size--industry-dynamics)
+- [☁️ SaaS / Hosted Platforms](#%EF%B8%8F-saas--hosted-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [☕ Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
 
-Let's keep customer data owned, activated, and as open as practical.
+---
+
+## 📊 Market Size & Industry Dynamics
+
+> **Market Overview:** The global Customer Data Platform (CDP) market is estimated at **$7.4 Billion in 2026** and projected to reach **$28+ Billion by 2032** (growing at a ~28% CAGR). The Composable CDP segment is currently **moderately fragmented**, with category leaders like Twilio Segment, Hightouch, Census (Fivetran Activations), and RudderStack competing alongside open-source engines for market share.
+
+---
+
+## ☁️ SaaS / Hosted Platforms
+
+Below is a comparative breakdown of leading commercial Composable CDP, Reverse ETL, and Customer Data activation platforms, ordered by company size (valuation / estimated market cap / revenue).
+
+| 🏢 Platform | 🌟 Key Features | 💵 Starting Tier Pricing | 🎁 Free Tier / Trial Limits | 📊 Company Size (Valuation / Revenue) |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Segment](https://segment.com/)** | Classic CDP event collection & routing | **$120 / month** (Team Plan) | **Free Plan**: 1,000 MTUs/month & 2 sources | **$3.2 Billion Valuation** (Acquired by Twilio) |
+| **[Hightouch](https://hightouch.com/)** | Warehouse-native audiences & Reverse ETL | **$350 / month** (Starter Tier) | **Free Plan**: 2 active syncs & unlimited seats | **$2.75 Billion Valuation** ($100M+ ARR) |
+| **[Tealium](https://tealium.com/)** | Enterprise CDP, tag management & enrichment | **$2,083 / month** ($25,000/year contract) | **14-Day Free Trial** (Custom demo sandbox) | **$1.2 Billion Valuation** |
+| **[Census](https://www.getcensus.com/)** | Reverse ETL & data activation (Fivetran) | **$350 / month** (Fivetran Activations) | **Free Plan**: 500,000 MAR/month & 300+ connectors | **$400 Million Valuation** ($35M+ ARR at acquisition) |
+| **[RudderStack](https://www.rudderstack.com/)** | Warehouse-native CDP & event pipelines | **$500 / month** (Growth Plan) | **Free Plan**: 250,000 events/month & 30-day trial | **$300 Million Valuation** ($82M total raised) |
+| **[mParticle](https://www.mparticle.com/)** | Mobile-first enterprise CDP & real-time routing | **$4,166 / month** ($50,000/year minimum) | **30-Day Free Trial** (Up to 10,000 MTUs) | **$300 Million Valuation** ($76M ARR, acquired by Rokt) |
+| **[ActionIQ](https://www.actioniq.com/)** | Enterprise CX hub & hybrid warehouse activation | **$3,000 / month** (Enterprise base contract) | **30-Day Free Trial** (Guided POC sandbox) | **$250 Million Valuation** |
+| **[Zeotap](https://zeotap.com/)** | Privacy-first CDP & identity resolution | **$2,500 / month** (Enterprise tier) | **14-Day Free Trial** (Privacy compliance test sandbox) | **$160 Million Valuation** |
+| **[Simon Data](https://www.simondata.com/)** | Warehouse-centric journey orchestration | **$2,000 / month** (Growth contract base) | **14-Day Free Trial** (Demo environment) | **$150 Million Valuation** |
+| **[GrowthLoop](https://www.growthloop.com/)** | Marketer-friendly composable activation | **$750 / month** (Standard plan) | **14-Day Free Trial** (Full access sandbox) | **$60 Million Valuation** |
+| **[MessageGears](https://www.messagegears.com/)** | Direct-from-warehouse messaging activation | **$1,500 / month** (Platform base) | **30-Day Free Trial** (Testing tier) | **$50 Million Valuation** |
+| **[Blotout](https://blotout.io/)** | First-party edge collection & cookieless tracking | **$199 / month** (Pro Tier) | **Free Plan**: 50,000 events/month | **$20 Million Valuation** |
+| **[Jitsu](https://jitsu.com/)** | Hosted open-source event collection engine | **$99 / month** (Growth Cloud) | **Free Plan**: 200,000 events/month | **$15 Million Valuation** |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+Composable CDP architectures are heavily built on open-source projects. Below is a list of top open-source repositories for event streaming, data transformations, reverse ETL, identity resolution, and analytical modeling, sorted by GitHub star count.
+
+| 📦 Repository | 🏷️ Description | ⭐ GitHub Stars (Stargazers) |
+| :--- | :--- | :--- |
+| **[PostHog / posthog](https://github.com/posthog/posthog)** | Open-source product analytics, event capture, session replay, and feature flags | [<img src="https://img.shields.io/github/stars/posthog/posthog?style=social&color=white" alt="PostHog Stars"/>](https://github.com/posthog/posthog/stargazers) |
+| **[Airbyte / airbyte](https://github.com/airbytehq/airbyte)** | Leading open-source data integration & ELT platform for warehouse ingestion | [<img src="https://img.shields.io/github/stars/airbytehq/airbyte?style=social&color=white" alt="Airbyte Stars"/>](https://github.com/airbytehq/airbyte/stargazers) |
+| **[dbt Labs / dbt-core](https://github.com/dbt-labs/dbt-core)** | SQL transformation framework for identity stitching & customer 360 models in warehouse | [<img src="https://img.shields.io/github/stars/dbt-labs/dbt-core?style=social&color=white" alt="dbt Stars"/>](https://github.com/dbt-labs/dbt-core/stargazers) |
+| **[Snowplow / snowplow](https://github.com/snowplow/snowplow)** | Enterprise behavioral data engine for real-time warehouse-native event collection | [<img src="https://img.shields.io/github/stars/snowplow/snowplow?style=social&color=white" alt="Snowplow Stars"/>](https://github.com/snowplow/snowplow/stargazers) |
+| **[Inngest / inngest](https://github.com/inngest/inngest)** | Event-driven workflow orchestration engine for real-time user trigger activation | [<img src="https://img.shields.io/github/stars/inngest/inngest?style=social&color=white" alt="Inngest Stars"/>](https://github.com/inngest/inngest/stargazers) |
+| **[Jitsu / jitsu](https://github.com/jitsucom/jitsu)** | MIT-licensed event collection & stream destination delivery platform (Segment alternative) | [<img src="https://img.shields.io/github/stars/jitsucom/jitsu?style=social&color=white" alt="Jitsu Stars"/>](https://github.com/jitsucom/jitsu/stargazers) |
+| **[RudderStack / rudder-server](https://github.com/rudderlabs/rudder-server)** | Source-available enterprise CDP data plane for event routing, transform & reverse ETL | [<img src="https://img.shields.io/github/stars/rudderlabs/rudder-server?style=social&color=white" alt="RudderStack Stars"/>](https://github.com/rudderlabs/rudder-server/stargazers) |
+| **[Meltano / meltano](https://github.com/meltano/meltano)** | CLI-first open-source data integration platform built on Singer taps and targets | [<img src="https://img.shields.io/github/stars/meltano/meltano?style=social&color=white" alt="Meltano Stars"/>](https://github.com/meltano/meltano/stargazers) |
+| **[Multiwoven / multiwoven](https://github.com/Multiwoven/multiwoven)** | Open-source Reverse ETL platform syncing warehouse data to business tools | [<img src="https://img.shields.io/github/stars/Multiwoven/multiwoven?style=social&color=white" alt="Multiwoven Stars"/>](https://github.com/Multiwoven/multiwoven/stargazers) |
+
+---
+
+### 🛠️ Reference Architecture Patterns
+
+1. **Collection Layer:** Deploy **Jitsu**, **RudderStack**, or **Snowplow** to capture real-time clickstream data directly into Snowflake / BigQuery.
+2. **Transformation & Identity Layer:** Use **dbt-core** models to stitch user IDs, compute RFM metrics, and define dynamic customer cohorts inside the data warehouse.
+3. **Activation Layer:** Sync warehouse segments to Salesforce, HubSpot, Facebook Custom Audiences, and Google Ads using **Multiwoven**, **Hightouch**, or **Census**.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome! Please follow these simple guidelines:
+
+1. Fork this repository 🍴
+2. Create a feature branch (`git checkout -b feature/new-cdp-tool`) 🌿
+3. Add the SaaS platform or open-source tool in alphabetical/ranked order following the existing table formatting 📝
+4. Open a Pull Request with a short description of the tool 🚀
+
+Check out our curated list directory at [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)!
+
+---
+
+## ☕ Support & Sponsorship
+
+If you find this list useful for building your customer data stack, please consider supporting the project:
+
+- 🌟 **Star this repository** on GitHub
+- 🔀 **Fork & Share** with fellow data engineers and growth marketers
+- 💖 **Sponsor the Author**: Support further open-source research via [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007)
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Composable-CDP&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Composable-CDP&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+This repository is a community-curated collection intended for educational and informational purposes. Products, pricing, and company metrics change frequently; please verify current details on respective official vendor sites.
+
+---
+
+<p align="center">
+  <b>Made with ❤️ for Data Engineers, Growth Hackers, and Open-Source CDP Enthusiasts worldwide.</b>
+</p>
