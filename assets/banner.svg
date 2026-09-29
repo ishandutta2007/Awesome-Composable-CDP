@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+
+    <!-- Card Background Gradient -->
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.9"/>
+    </linearGradient>
+
+    <!-- Accent Gradient -->
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.5" stroke-opacity="0.3"/>
+    </pattern>
+
+    <!-- Dynamic Flow Pulse Animation -->
+    <style>
+      .pulse-line {
+        stroke-dasharray: 8 12;
+        animation: dash 20s linear infinite;
+      }
+      .node-pulse {
+        animation: pulse 3s ease-in-out infinite alternate;
+      }
+      .glow-text {
+        text-shadow: 0 0 20px rgba(168, 85, 247, 0.5);
+      }
+      @keyframes dash {
+        to {
+          stroke-dashoffset: -1000;
+        }
+      }
+      @keyframes pulse {
+        0% { transform: scale(1); opacity: 0.8; }
+        100% { transform: scale(1.05); opacity: 1; }
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="360" rx="16" fill="url(#bgGradient)"/>
+  <rect width="1200" height="360" rx="16" fill="url(#grid)"/>
+
+  <!-- Dynamic / Animated Background Flow Elements (Kept in Background) -->
+  <g stroke="url(#accentGrad)" stroke-width="2" fill="none" opacity="0.35">
+    <!-- Flow connection curves -->
+    <path d="M 100 280 C 300 340, 500 220, 700 290 S 1000 330, 1100 250" class="pulse-line" stroke-width="3"/>
+    <path d="M 50 100 C 250 40, 450 140, 750 60 S 1050 40, 1150 120" class="pulse-line" stroke-width="2"/>
+  </g>
+
+  <!-- Decorative Composable Flow Pills / Nodes in Background -->
+  <g opacity="0.25">
+    <rect x="80" y="240" width="120" height="36" rx="18" fill="#6366f1"/>
+    <text x="140" y="263" fill="#ffffff" font-family="system-ui, sans-serif" font-size="12" font-weight="600" text-anchor="middle">SDK Sources</text>
+
+    <rect x="420" y="270" width="130" height="36" rx="18" fill="#a855f7"/>
+    <text x="485" y="293" fill="#ffffff" font-family="system-ui, sans-serif" font-size="12" font-weight="600" text-anchor="middle">Data Warehouse</text>
+
+    <rect x="820" y="250" width="130" height="36" rx="18" fill="#ec4899"/>
+    <text x="885" y="273" fill="#ffffff" font-family="system-ui, sans-serif" font-size="12" font-weight="600" text-anchor="middle">Reverse ETL</text>
+  </g>
+
+  <!-- Main Hero Card Overlay (Foreground Container ensuring full legibility) -->
+  <rect x="150" y="45" width="900" height="270" rx="20" fill="url(#cardGrad)" stroke="#334155" stroke-width="1.5" />
+  
+  <!-- Decorative Top Accent Bar -->
+  <rect x="150" y="45" width="900" height="6" rx="3" fill="url(#accentGrad)"/>
+
+  <!-- Foreground Title and Subtitle -->
+  <g text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">
+    <!-- Category Badge -->
+    <rect x="475" y="75" width="250" height="28" rx="14" fill="#312e81" stroke="#6366f1" stroke-width="1"/>
+    <text x="600" y="94" fill="#c7d2fe" font-size="12" font-weight="700" letter-spacing="1.5">AWESOME COMPOSABLE CDP</text>
+
+    <!-- Main Title -->
+    <text x="600" y="155" fill="#ffffff" font-size="44" font-weight="800" letter-spacing="-0.5" class="glow-text">
+      Composable CDP Ecosystem
+    </text>
+
+    <!-- Subtitle -->
+    <text x="600" y="195" fill="#94a3b8" font-size="18" font-weight="400">
+      Warehouse-Native Customer Data • Event Collection • Reverse ETL • Data Activation
+    </text>
+
+    <!-- Tech Stack Feature Pills -->
+    <g transform="translate(240, 225)">
+      <!-- Pill 1 -->
+      <rect x="0" y="0" width="160" height="32" rx="16" fill="#1e293b" stroke="#475569" stroke-width="1"/>
+      <text x="80" y="20" fill="#e2e8f0" font-size="13" font-weight="600">⚡ Warehouse-Native</text>
+
+      <!-- Pill 2 -->
+      <rect x="180" y="0" width="170" height="32" rx="16" fill="#1e293b" stroke="#475569" stroke-width="1"/>
+      <text x="265" y="20" fill="#e2e8f0" font-size="13" font-weight="600">🔄 Reverse ETL Sync</text>
+
+      <!-- Pill 3 -->
+      <rect x="370" y="0" width="160" height="32" rx="16" fill="#1e293b" stroke="#475569" stroke-width="1"/>
+      <text x="450" y="20" fill="#e2e8f0" font-size="13" font-weight="600">📊 Open Source &amp; SaaS</text>
+
+      <!-- Pill 4 -->
+      <rect x="540" y="0" width="180" height="32" rx="16" fill="#1e293b" stroke="#475569" stroke-width="1"/>
+      <text x="630" y="20" fill="#e2e8f0" font-size="13" font-weight="600">🎯 Audience Activation</text>
+    </g>
+  </g>
+</svg>
