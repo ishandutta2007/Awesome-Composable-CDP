@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Composable-CDP"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Composable-CDP?style=flat-square&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Composable-CDP"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Composable-CDP?style=flat-square&color=gold" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Composable-CDP/stargazers"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Composable-CDP?style=flat-square&color=blue" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Composable-CDP/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Composable-CDP?style=flat-square" alt="License"/></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -67,9 +67,9 @@ Below is a comparative breakdown of leading commercial Composable CDP, Reverse E
 
 ## 🔓 Open-Source GitHub Projects
 
-Composable CDP architectures are heavily built on open-source projects. Below is a list of top open-source repositories for event streaming, data transformations, reverse ETL, identity resolution, and analytical modeling, sorted by GitHub star count.
+Composable CDP architectures are heavily built on open-source projects. Below is a list of top open-source repositories for event streaming, data transformations, reverse ETL, identity resolution, and analytical modeling, sorted by GitHub Stars_Count.
 
-| 📦 Repository | 🏷️ Description | ⭐ GitHub Stars (Stargazers) |
+| 📦 Repository | 🏷️ Description | ⭐ GitHub_Stars (Stargazers) |
 | :--- | :--- | :--- |
 | **[PostHog / posthog](https://github.com/posthog/posthog)** | Open-source product analytics, event capture, session replay, and feature flags | [<img src="https://img.shields.io/github/stars/posthog/posthog?style=social&color=white" alt="PostHog Stars"/>](https://github.com/posthog/posthog/stargazers) |
 | **[Airbyte / airbyte](https://github.com/airbytehq/airbyte)** | Leading open-source data integration & ELT platform for warehouse ingestion | [<img src="https://img.shields.io/github/stars/airbytehq/airbyte?style=social&color=white" alt="Airbyte Stars"/>](https://github.com/airbytehq/airbyte/stargazers) |
